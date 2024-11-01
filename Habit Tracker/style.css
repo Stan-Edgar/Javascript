@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: rgb(45, 129, 168);
+    --border: 1px solid black;
+    --sexyBlue: rgb(125, 143, 224);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blue);
+    row-gap: 30px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Playfair Display;
+}
+
+.create {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 30px;
+    background-color: azure;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border: var(--border);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+    border: var(--border);
+    border-radius: 5px;
+    background-color: var(--sexyBlue);
+    cursor: pointer;
+}
+
+.habits {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+list {
+    display: flex; 
+    width: 600px; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: rgb(125, 143, 224); 
+    padding: 10px; 
+    border-radius: 25px;
+    border: var(--border);
+    font-size: 18px;
+}
